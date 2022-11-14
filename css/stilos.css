@@ -34,3 +34,27 @@ body {
     height: 50px;
 
 }
+@media screen and (max-width:780px) and (min-width:1024px) {
+ .encabezado{
+    background-color: rgb(28, 25, 209);
+ 
+}
+}
+@media screen and (max-width:480px) and (min-width:780px) {
+    .contenido, .contenido-lateral{
+        width: 100%;/*uno se colocara debajo del otro*/
+    }
+}
+@media screen and (max-width:780px) and (min-width:480px) {
+    .encabezado{
+        height: 80px;
+    }
+    .contenido{
+        background-color:rgb(194, 26, 26);
+    }
+
+    .contenido, .contenido-lateral{
+        width: 100%;
+    }
+
+}
