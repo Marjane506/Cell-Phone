@@ -3,7 +3,6 @@ body {
     padding: 0;
 }
 
-
 .encabezado{
     display: flex;
     background-color: rgb(247,220,22);
@@ -79,12 +78,12 @@ body {
     gap: 0px;
     height:100vh;
     box-sizing: border-box;
+    padding: 0;
 }
 .post01{
-    background-color: #E597AB; 
+   background-color: #E597AB; 
    grid-row-start: 1;
    grid-column-start: 1;
-
    grid-row-end: 3;
    grid-column-end: 3;
 
@@ -95,29 +94,9 @@ body {
     background:url(../img/cap_movil.png)no-repeat center/cover; 
     grid-row-start: 1;
     grid-column-start: 3; 
-    
-
- 
     grid-row-end: 3;
     grid-column-end: 4;
 }
-
-
-
-/*.contenido-lateral{
-    padding:1em 2em;
-    float:left;
-    box-sizing: border-box;
-    width:40%;
-    background-color:rgba(101, 209, 29, 0.46);
-    height: 250px;
-}
-.post{
-    background-color:rgb(24, 155, 220);
-    height: 100%;
-    margin-bottom:1em; 
-    
-}  */*/
 
 .photo{
     width:100%;
@@ -247,14 +226,25 @@ body {
    
    
 .pie-pagina{
-   
-    float:left;
+    clear:both;
     box-sizing: border-box;
     width:100%;
     background-color:#000;
-   
-    color:#fff;
-    
+    min-height:80px;
+    text-align: center;
+    padding:30px;
+    margin-top:50px;
+    color:#fff;    
+}
+.autor{
+    margin-top:10px;
+    font-size: 20px;
+}
+.terms{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 60px;
 }
 
 
