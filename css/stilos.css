@@ -1,7 +1,7 @@
 .conteiner{ 
-     width: 100%;
-     text-align: justify;
-     margin: auto;   
+   width: 100%;
+   text-align: justify;
+   margin: auto;   
 }
 
 .encabezado{
@@ -56,10 +56,10 @@
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size:1em; 
-   
+    
 }
 .btn button:hover{
-   
+ 
 
     background-color:rgb(74, 74, 218);;
     transform: scale(1.1);
@@ -69,8 +69,8 @@
 }
 
 
- 
- .post{
+
+.post{
     display:grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -80,12 +80,12 @@
     
 }
 .post01{
-   background-color: #E597AB; 
-   grid-row-start: 1;
-   grid-column-start: 1;
-   grid-row-end: 3;
-   grid-column-end: 3;
-  
+ background-color: #E597AB; 
+ grid-row-start: 1;
+ grid-column-start: 1;
+ grid-row-end: 3;
+ grid-column-end: 3;
+ 
 
 }
 .post02{
@@ -104,11 +104,11 @@
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top:0px;
-  
     
-   
-   
-   
+    
+    
+    
+    
 }
 .photo-1{
     width:100%;
@@ -151,7 +151,7 @@
     box-sizing: border-box;
 
 
-   
+    
 }
 
 .imagen1{
@@ -161,18 +161,18 @@
     grid-column-start: 1;
     grid-row-end: 3;
     grid-column-end: 3; 
-   
+    
 
 
     
 }
 .item-1 {
-   
-   background-color: #9BA5BA; 
-   grid-row-start: 1;
-   grid-column-start: 5;
-   grid-row-end: 2;
-   grid-column-end: 6;
+ 
+ background-color: #9BA5BA; 
+ grid-row-start: 1;
+ grid-column-start: 5;
+ grid-row-end: 2;
+ grid-column-end: 6;
 
 }
 .item-2 {
@@ -183,8 +183,8 @@
     grid-row-end: 2;
     grid-column-end: 5;
     
- }
- .item-3 {
+}
+.item-3 {
 
     background-color: #A7789B; 
     grid-row-start: 1;
@@ -192,35 +192,35 @@
     grid-row-end: 2;
     grid-column-end: 4;
     
- }
- .item-4 {
- 
+}
+.item-4 {
+   
     background-color: #CC88DE; 
     grid-row-start: 2;
     grid-column-start: 3;
     grid-row-end: 3;
     grid-column-end: 4;
     
- }
- .item-5 {
- 
+}
+.item-5 {
+   
     background-color: #E5FF65; 
     grid-row-start: 2;
     grid-column-start: 4;
     grid-row-end: 3;
     grid-column-end: 5;
     
- }
- .item-6 {
- 
+}
+.item-6 {
+   
     background-color: #E77D58; 
     grid-row-start: 2;
     grid-column-start: 5;
     grid-row-end: 3;
     grid-column-end: 6;
- } 
-   
-   
+} 
+
+
 .pie-pagina{
     clear:both;
     box-sizing: border-box;
@@ -241,17 +241,17 @@
     display:flex;
     justify-content: center;
     list-style: none;
-   
+    
 }
 
 
 
 @media screen and (max-width:780px) and (min-width:1024px) {
- .encabezado{
+   .encabezado{
     background-color: rgb(28, 25, 209);
- 
 }
 }
+
 @media screen and (max-width:480px) and (min-width:780px) {
     .contenido, .contenido-lateral{
         width: 100%;/*uno se colocara debajo del otro*/
