@@ -13,13 +13,18 @@ body{
 }
 
 .encabezado{
+    position:fixed;
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: flex-end;
     height: 60px;
     padding: 5px 10%;
     background-color: white;   
     border-bottom: 1px solid #d0d1d2;
+    width: 100%;
+    z-index: 2;
+  
 
 }
 .logo{
@@ -32,6 +37,7 @@ body{
     color: #000;
     font-size:20px;
 }
+
 .nav-links {
     font-family: Kanit;
     display:flex;
@@ -92,6 +98,13 @@ h1{
     font-family: Newsreader;  
     margin-right: 200px;    
 }
+#page1{
+    font-family: Kanit;
+    font-size: 1rem;
+    margin-right: 200px;
+    text-align: justify;
+ 
+}
 p{
     font-family: Kanit;
     font-size: 1rem;
@@ -147,19 +160,20 @@ h2{
     padding-top:45px;
     position: absolute;
     z-index: -1;
+
 }
 .movil{
     width:14%;
     height: 68%;
     position: absolute;
     margin-left:-180px;
+    z-index: 1;
 }
 .fondo{
     width:13vw;
     height: 67vh;
     margin-left: 110px;
     margin-top: 6px; 
-    z-index: 2;
     border-radius: 28px;
     animation: animate 3s linear infinite;
 }
